@@ -14,11 +14,17 @@ class ExampleApp(tk.Frame):
             self.exercise_text = []
             self.exercise_subtext = []
             for line in file_in:
-                line_sp = line.split(';')
+                line_sp = line.split(';', 1)
+                line_sp[0] = line_sp[0].strip()
                 if len(line_sp[0]) > 9:
                     print("WARNING, title too big: {}".format(line_sp[0]))
                 self.exercise_text.append(line_sp[0])
-                self.exercise_subtext.append(line_sp[1].replace('\\n', '\n') if len(line_sp) > 1 else "")
+                if len(line_sp) > 1:
+                    line_sp[1] = line_sp[1].strip()
+                    self.exercise_subtext.append(line_sp[1].replace('\\n', '\n'))
+                else:
+                    self.exercise_subtext.append("")
+
             self.workout_duration = len(self.exercise_text)*timedelta(seconds=30)
 
 
