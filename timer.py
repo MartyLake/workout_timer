@@ -3,25 +3,30 @@ import tkinter as tk
 from datetime import datetime, timedelta
 from tkinter import ttk
 
-DEFAULT_FONT="Verdana 30 bold"
+DEFAULT_FONT="Verdana 20 bold"
 #example
 
 class ExampleApp(tk.Frame):
     ''' An example application for TkInter.  Instantiate
         and call the run method to run. '''
     def __init__(self, master):
-        with open("workout.txt") as file_in:
+        with open("workout.txt", mode='r', encoding="utf-8") as file_in:
             self.exercise_text = []
+            self.exercise_subtext = []
             for line in file_in:
-                self.exercise_text.append(line)
+                line_sp = line.split(';')
+                if len(line_sp[0]) > 9:
+                    print("WARNING, title too big: {}".format(line_sp[0]))
+                self.exercise_text.append(line_sp[0])
+                self.exercise_subtext.append(line_sp[1].replace('\\n', '\n') if len(line_sp) > 1 else "")
             self.workout_duration = len(self.exercise_text)*timedelta(seconds=30)
 
 
         # Initialize window using the parent's constructor
         tk.Frame.__init__(self,
                           master,
-                          width=720,
-                          height=480)
+                          width=1280/2 + 210,
+                          height=720/2)
         # Set the title
         self.master.title('Workout Timer')
 
@@ -31,15 +36,8 @@ class ExampleApp(tk.Frame):
         # We'll use the flexible pack layout manager
         self.pack()
 
-        self.top_label = tk.Label(text="Workout", font="Verdana 50 bold")
-        self.instruction_label = tk.Label(text="", font=DEFAULT_FONT)
-
-        # The recipient text entry control and its StringVar
-        self.recipient_var = tk.StringVar()
-        self.recipient = tk.Entry(self,
-                                  textvariable=self.recipient_var,
-                                  font=DEFAULT_FONT)
-        self.recipient_var.set('world')
+        self.top_label = tk.Label(text="Workout", font="Verdana 50 bold", wraplength=390, justify='left')
+        self.instruction_label = tk.Label(text="", font=DEFAULT_FONT, wraplength=395, justify='left')
 
         # The go button
         self.start_time = None
@@ -58,8 +56,8 @@ class ExampleApp(tk.Frame):
         # Put the controls on the form
         # self.top_label.pack(fill=tk.X, side=tk.TOP)
         # self.local_label.pack(fill=tk.X, side=tk.TOP)
-        self.top_label.place(x=10, y=10)
-        self.instruction_label.place(x=10, y=120)
+        self.top_label.place(x=10, y=0)
+        self.instruction_label.place(x=0, y=100)
 
         self.go_button.pack(fill=tk.X, side=tk.BOTTOM)
         self.global_progress.pack(fill=tk.X, side=tk.BOTTOM)
@@ -67,7 +65,14 @@ class ExampleApp(tk.Frame):
         self.local_progress.pack(fill=tk.X, side=tk.BOTTOM)
         self.local_label.pack(fill=tk.X, side=tk.BOTTOM)
 
-        # self.recipient.pack(fill=tk.X, side=tk.TOP)
+        now = "Ready?"
+        self.label.configure(text=now)
+        self.local_label.configure(text=now)
+        # exercise text
+        exercice_number=0
+        exercise = self.exercise_text[int(exercice_number)]
+        self.top_label.configure(text=exercise)
+        self.instruction_label.configure(text=self.exercise_subtext[int(exercice_number)])
 
         self.update()
 
@@ -84,11 +89,7 @@ class ExampleApp(tk.Frame):
         # reschedule update callback
         self.after(50, self.update)
         ''' Update loop '''
-        if not self.start_time :
-            now = "Ready?"
-            self.label.configure(text=now)
-            self.local_label.configure(text=now)
-        else:
+        if self.start_time :
             time = datetime.now() - self.start_time
             # total time
             hours, remainder = divmod(time.total_seconds(), 3600)
@@ -107,18 +108,35 @@ class ExampleApp(tk.Frame):
 
             # exercise time
             exercice_number, seconds = divmod(time.total_seconds(), 30)
-            seconds = 30 - seconds
-            if seconds > 5:
-                seconds = int(seconds)
+            exercice_number = int(exercice_number)
+
+            if exercice_number >= len(self.exercise_text):
+                self.local_progress['value'] = 100
+                self.global_progress['value'] = 100
+                self.go_button.configure(text="Done")
+                self.label.configure(text="0")
+                now = "{:02d}:{:02d}/{:02d}:{:02d}".format(total_minutes,total_seconds, total_minutes, total_seconds)
+                self.label.configure(text=now)
+                self.start_time=None
             else:
-                seconds = int(seconds * 10)/10.0
-            now = "{}".format(seconds)
-            self.local_label.configure(text=now)
-            self.local_progress['value'] = 100 *  (30 - seconds) / 30
-            # exercise text
-            exercise = self.exercise_text[int(exercice_number)]
-            self.top_label.configure(text=exercise)
-            # self.instruction_label.configure(text=self.exercise_instruction[exercise])
+                seconds = 30 - seconds
+                if seconds > 5:
+                    seconds = int(seconds)
+                else:
+                    seconds = int(seconds * 10)/10.0
+                now = "{}".format(seconds)
+                self.local_label.configure(text=now)
+                self.local_progress['value'] = 100 *  (30 - seconds) / 30
+                # exercise text
+                exercise = self.exercise_text[exercice_number]
+                self.top_label.configure(text=exercise)
+                self.instruction_label.configure(text=self.exercise_subtext[exercice_number])
+                # self.instruction_label.configure(text=self.exercise_instruction[exercise])
+                next = ""
+                if exercice_number+1 < len(self.exercise_text):
+                    next = "Prochaine étape: {}".format(self.exercise_text[exercice_number+1])
+                self.go_button.configure(text=next)
+
 
 app = ExampleApp(tk.Tk())
 app.mainloop()
