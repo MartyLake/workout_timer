@@ -1,4 +1,4 @@
-#python3
+﻿#python3
 import tkinter as tk
 from datetime import datetime, timedelta
 from tkinter import ttk
@@ -42,7 +42,7 @@ class ExampleApp(tk.Frame):
         # We'll use the flexible pack layout manager
         self.pack()
 
-        self.top_label = tk.Label(text="Workout", font="Verdana 50 bold", wraplength=390, justify='left')
+        self.top_label = tk.Label(text="Workout", font="Verdana 30 bold", wraplength=390, justify='left')
         self.instruction_label = tk.Label(text="", font=DEFAULT_FONT, wraplength=395, justify='left')
 
         # The go button

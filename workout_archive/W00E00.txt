@@ -1,0 +1,14 @@
+Training;Première ligne = titre
+Squats;Le genou ne doit pas dépasser la cheville
+Push-ups;Sur les genoux ou les pieds, on descends doucement, on sert les fesses, on rentre le ventre et on pousse.
+Situps;Allongé, on touche le sol derrière sa tête, on se redresse on touche entre les jambes
+Gainage;Bras tendus ou pliés, on rentre le ventre
+Gainage G;Côté gauche, Main sur la hanche, on rentre le ventre
+-Pause-
+Squats
+Push-ups
+Situps
+Gainage
+Gainage D
+-Pause-
+Etirement
