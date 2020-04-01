@@ -1,43 +1,46 @@
-cardio101;On commence par les bases aujourd'hui, une bonne maîtrise de ses mouvements et un peu de sueur au rdv ;)\n\nDépart 19h05
-Jumping Jacks;Répétition 1/3\n\nPieds joints ,les mains se touchent en haut; puis pieds écartés les mains touchent les cuisses en bas
-Log Jumps;Répétition 1/3\n\nOn sautille par dessus une chaise imaginaire, on retombe souple sur la pointe des pieds
-Montée genoux;Répétition 1/3\n\nOn rentre le ventre, on monte les genoux, on retombe souble sur la pointe des pieds
-Talons fesses;Répétition 1/3\n\nOn rentre le ventre, les talons montent sur les fesses, tonique !
-Jumping Jacks;Répétition 2/3\n\nPieds joints ,les mains se touchent en haut; puis pieds écartés les mains touchent les cuisses en bas
-Log Jumps;Répétition 2/3\n\nOn sautille par dessus une chaise imaginaire, on retombe souple sur la pointe des pieds
-Montée genoux;Répétition 2/3\n\nOn rentre le ventre, on monte les genoux, on retombe souble sur la pointe des pieds
-Talons fesses;Répétition 2/3\n\nOn rentre le ventre, les talons montent sur les fesses, tonique !
-Jumping Jacks;Répétition 3/3\n\nPieds joints ,les mains se touchent en haut; puis pieds écartés les mains touchent les cuisses en bas
-Log Jumps;Répétition 3/3\n\nOn sautille par dessus une chaise imaginaire, on retombe souple sur la pointe des pieds
-Montée genoux;Répétition 3/3\n\nOn rentre le ventre, on monte les genoux, on retombe souble sur la pointe des pieds
-Talons fesses;Répétition 3/3\n\nOn rentre le ventre, les talons montent sur les fesses, tonique !
-Gainage;Bonus avant la pause\n\nBras tendus, on rentre le ventre, si trop dur, on monte les fesses. Jamais creuser le dos!
-Break 1min;1/2\n\nOn boit une petite gorgée d'eau
-Break 1min;2/2\n\nOn souffle pour récuperer et enchainer sur la seconde série
-Jabs;Répétition 1/3\n\nOn gaine, expiration à chaque coup de poing
-Power Squats;Répétition 1/3\n\nOn descends sur l'arrière des talons, les genoux ne dépassent pas les orteilles!
-Mountain Climber;Répétition 1/3\n\nComme une montée de genoux, les mains vers le ciel
-Ski jumps;Répétition 1/3\n\nOn plie les jambes, on lances les bras en l'air et on retombe sur les orteilles, parrallèle!
-Jabs;Répétition 2/3\n\nOn gaine, expiration à chaque coup de poing
-Power Squats;Répétition 2/3\n\nOn descends sur l'arrière des talons, les genoux ne dépassent pas les orteilles!
-Mountain Climber;Répétition 2/3\n\nComme une montée de genoux, les mains vers le ciel
-Ski jumps;Répétition 2/3\n\nOn plie les jambes, on lances les bras en l'air et on retombe sur les orteilles, parrallèle!
-Jabs;Répétition 3/3\n\nOn gaine, expiration à chaque coup de poing
-Power Squats;Répétition 3/3\n\nOn descends sur l'arrière des talons, les genoux ne dépassent pas les orteilles!
-Mountain Climber;Répétition 3/3\n\nComme une montée de genoux, les mains vers le ciel
-Ski jumps;Répétition 3/3\n\nOn plie les jambes, on lances les bras en l'air et on retombe sur les orteilles, parrallèle!
-Break 1min;1/2\n\nOn boit une petite gorgée d'eau
-Break 1min;2/2\n\nOn souffle pour récuperer et enchainer sur la dernière série
-Basketball jumps;Répétition 1/3\n\nLa balle de basket est au sol, on descend le dos droit, et on lance!
-Drills lvl1;Répétition 1/3\n\n4 pompes, on reste en gainage bras tendu, et on monte les genoux 8 fois, repeat
-Ski abs;Répétition 1/3\n\nGainage bras tendu, on amène un pied puis l'autre à l'extérieur
-Abs in/out;Répétition 1/3\n\nGainage bras tendu, on amène un pied puis l'autre au niveau des mains
-Basketball jumps;Répétition 2/3\n\nLa balle de basket est au sol, on descend le dos droit, et on lance!
-Drills lvl1;Répétition 2/3\n\n4 pompes, on reste en gainage bras tendu, et on monte les genoux 8 fois, repeat
-Ski abs;Répétition 2/3\n\nGainage bras tendu, on amène un pied puis l'autre à l'extérieur
-Abs in/out;Répétition 2/3\n\nGainage bras tendu, on amène un pied puis l'autre au niveau des mains
-Basketball jumps;Répétition 3/3\n\nLa balle de basket est au sol, on descend le dos droit, et on lance!
-Drills lvl1;Répétition 3/3\n\n4 pompes, on reste en gainage bras tendu, et on monte les genoux 8 fois, repeat
-Ski abs;Répétition 3/3\n\nGainage bras tendu, on amène un pied puis l'autre à l'extérieur
-Abs in/out;Répétition 3/3\n\nGainage bras tendu, on amène un pied puis l'autre au niveau des mains
-Etirements;Félicitations, vous avez fait du bon boulot !
+Tabata Power;On monte dans le route, on souffle et on y retourne. Très cardio en fait =)
+#rep;4;2
+Jumping jacks;Pieds joints ,les mains se touchent en haut; puis pieds écartés les mains touchent les cuisses en bas
+Chest opener;Coudes au niveau des épaules, main vers le ciel, on ouvre le torse! On monte le genou vers le coude opposé, dynamique
+Fente latérale;Jambes écartées, on descend poser la main droite sur le genou droit, au dessus de la cheville droite, puis autre côté
+Down-dog spider;Chien tête en bas, on amène le pied droit à côté de la main droite, on revient chien tête en bas, idem côté gauche
+BREAK;à partir de maintenant, on se "repose" les 10 premières secondes, et on y va à fond les 20 secondes suivantes. ça va enchaîner donc bien écouter les explications ;)
+BREAK;Jogging 10 secondes, 20 secondes à fond les balons !\n\nAre you ready ? =D
+#rep;4;2
+Burpee/Fente;Debout, Accroupit, Gainage bras tendu, (pompe?), Accroupit, Debout, Fente arrière gauche, Fente arrière droit
+Fente alternées sautés;On commence fente arrière gauche, dans un petit saut dynamique on change de jambes.
+Fente alternées Jab;On commence fente arrière gauche, le bras droit droit devant. Sans se relever, on change de jambe et de bras
+Fente alternées Kick;On commence fente arrière gauche, on pousse pour se relever et avec l'élan on vient donner un coup de talon
+BREAK;Position de l'enfant 10 secondes, 20 secondes à fond les balons !\nSur les genoux, c'est cool aussi !
+#rep;4;2
+Moving pushups;Comme une pompe normale, mais arrivé en haut on ramène les mains ensemble, et on se déplace sur le côté.
+Push up pop up;Comme une pompe normale, mais on décolle légèrement les mains en haut du mouvement.
+Push up row;Comme une pompe normale, mais on décolle une main du sol jusqu'au niveau des côtes.
+Push up row(genoux);Comme une pompe à genoux, mais on décolle une main du sol jusqu'au niveau des côtes.
+BREAK;Jogging 10 secondes, 20 secondes à fond les balons ! Explications power jump et variantes sans impact squat croisé.
+#rep;4;2
+Fast power jump;Départ position squat, on saute tonique et on monte les genoux. Atterrissage en douceur sur les orteils en position squat.
+Slow power jump;Départ position squat, on saute tonique et on monte les genoux. Atterrissage en douceur sur les orteils en position squat.
+High jump;Départ position squat, on saute le plus haut possible bras tendus. Atterrisage en douceur sur les orteils en position squat.
+Squat knee up;Départ squat on se redresse sur une jambe en montant le genou sur l'extérieur
+BREAK;C-sit hold 10 secondes, 20 secondes à fond les balons ! Si c'est trop dur => C-sit hold
+#rep;4;2
+Switch kick abs;Allongé, tête et jambes décollées du sol, on monte la jambe droite et la main gauche vers le ciel, on alterne.
+Switch kick abs;Allongé, tête et jambes décollées du sol, on monte la jambe droite et la main gauche vers le ciel, on alterne.
+Scissor abs;Allongé sur les coudes, les jambes décollées du sol, mouvements de ciseaux horizontal avec les pieds.
+Bateau;Allongé, jambes et mains vers le ciel, on rentre le ventre et on souffle
+BREAK;C-sit hold 10 secondes, 20 secondes à fond les balons ! Si c'est trop dur => C-sit hold
+#rep;4;2
+Tricep dip reach;Assis, on pause les mains derrière les hanches, on lève les fesses on plie les coudes vers l'arrière. On touche la main droite et le pied gauche. On alterne.
+Tricep unijambe;Tricep classique, mais avec une jambe vers le ciel.
+Tricep rapide;Assis, on pause les mains derrière les hanches, on lève les fesses on plie les coudes vers l'arrière. RAPIDE.
+Tricep 4secs;Assis, on pause les mains derrière les hanches, on lève les fesses on plie les coudes vers l'arrière. 4 secondes par répétition.
+BREAK;Ultimator, ça c'est\n"pour la route" ;)
+Fente alternées Jab;On commence fente arrière gauche, le bras droit droit devant. Sans se relever, on change de jambe et de bras
+Push up row;Comme une pompe normale, mais on décolle une main du sol jusqu'au niveau des côtes.
+Switch kick abs;Allongé, tête et jambes décollées du sol, on monte la jambe droite et la main gauche vers le ciel, on alterne.
+Tricep rapide;Assis, on pause les mains derrière les hanches, on lève les fesses on plie les coudes vers l'arrière. RAPIDE.
+Fast power jump 1/2;Départ position squat, on saute tonique et on monte les genoux. Atterrissage en douceur sur les orteils en position squat.
+Fast power jump 2/2;Départ position squat, on saute tonique et on monte les genoux. Atterrissage en douceur sur les orteils en position squat.
+Etirements;Bravo, cette séance est bien trop dure pour la reprise mais je n'avais pas le temps d'en préparer une autre désolé! :P
+Etirements;Merci JC d'avoir participé à l'élaboration de cette séance! à demain 19h05 renforcement musculaire

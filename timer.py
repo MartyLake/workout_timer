@@ -11,12 +11,37 @@ class ExampleApp(tk.Frame):
         and call the run method to run. '''
     def __init__(self, master):
         with open("workout.txt", mode='r', encoding="utf-8") as file_in:
+            content = file_in.read().splitlines()
+        with open("workout.preprocessed.txt", mode='w', encoding="utf-8") as file_out:
+            for line_number, line in enumerate(content):
+                if not line:
+                    #already stripped
+                    continue
+                if line.startswith('#rep'):
+                    #do something
+                    line_sp = line.split(';')
+                    x_exercices = int(line_sp[1])
+                    x_repeat = int(line_sp[2])
+                    print("At line {}, Repetition: série de {} exercices, répétés {} fois.".format(line_number, x_exercices, x_repeat))
+                    exercises = []
+                    for i in range(line_number + 1, line_number + 1 + x_exercices):
+                        exercises.append(content[i])
+                        content[i] = None #so we don't process twice
+                    for i in range(x_repeat):
+                        for exercise in exercises:
+                            print("{}\\nRépétition{}/{}".format(exercise,i+1,x_repeat), file=file_out)
+                    continue
+                if line.startswith('#'):
+                    print("WARNING at line {}, line starts with # but unknown verb. Using as is.")
+                print(line, file=file_out)
+
+        with open("workout.preprocessed.txt", mode='r', encoding="utf-8") as file_in:
             self.exercise_text = []
             self.exercise_subtext = []
             for line in file_in:
                 line_sp = line.split(';', 1)
                 line_sp[0] = line_sp[0].strip()
-                if len(line_sp[0]) > 9:
+                if len(line_sp[0]) > 15:
                     print("WARNING, title too big: {}".format(line_sp[0]))
                 self.exercise_text.append(line_sp[0])
                 if len(line_sp) > 1:
@@ -71,8 +96,14 @@ class ExampleApp(tk.Frame):
         self.local_progress.pack(fill=tk.X, side=tk.BOTTOM)
         self.local_label.pack(fill=tk.X, side=tk.BOTTOM)
 
-        now = "Ready?"
+        hours, remainder = divmod(self.workout_duration.total_seconds(), 3600)
+        minutes, seconds = divmod(remainder, 60)
+        total_minutes = int(minutes)
+        total_seconds = int(seconds)
+        now = "{:02d}:{:02d}/{:02d}:{:02d}".format(0,0, total_minutes, total_seconds)
         self.label.configure(text=now)
+
+        now = "Ready?"
         self.local_label.configure(text=now)
         # exercise text
         exercice_number=0

@@ -1,0 +1,53 @@
+power101;On commence par les bases aujourd'hui, une bonne maîtrise de ses mouvements et quelques courbatures au rdv ;)\n\nDépart 19h10
+Commando;Répétition 1/3\n\nGainage bras tendus, si c'est dur on y reste, si c'est bon, on descend sur les coudes et on remonte :)
+Situps;Répétition 1/3\n\nAllongé sur le dos, avec les mains, on touche le sol derrière soit, on lance ses mains, on touche entre les jambes.
+Marche du ver;Répétition 1/3\n\nDebout, on mets les mains au sol et on marche avec les mains jusqu'à la position gainage, et dans l'autre sens
+Triceps dips;Répétition 1/3\n\nAssis, on pause les mains au niveau des fesses, on monte les fesses et on plie les coudes vers l'arrière. Toucher le pied opposé avec la main opposée.
+Commando;Répétition 2/3\n\nGainage bras tendus, si c'est dur on y reste, si c'est bon, on descend sur les coudes et on remonte :)
+Situps;Répétition 2/3\n\nAllongé sur le dos, avec les mains, on touche le sol derrière soit, on lance ses mains, on touche entre les jambes.
+Marche du ver;Répétition 2/3\n\nDebout, on mets les mains au sol et on marche avec les mains jusqu'à la position gainage, et dans l'autre sens
+Triceps dips;Répétition 2/3\n\nAssis, on pause les mains au niveau des fesses, on monte les fesses et on plie les coudes vers l'arrière. Toucher le pied opposé avec la main opposée.
+Commando;Répétition 3/3\n\nGainage bras tendus, si c'est dur on y reste, si c'est bon, on descend sur les coudes et on remonte :)
+Situps;Répétition 3/3\n\nAllongé sur le dos, avec les mains, on touche le sol derrière soit, on lance ses mains, on touche entre les jambes.
+Marche du ver;Répétition 3/3\n\nDebout, on mets les mains au sol et on marche avec les mains jusqu'à la position gainage, et dans l'autre sens
+Triceps dips;Répétition 3/3\n\nAssis, on pause les mains au niveau des fesses, on monte les fesses et on plie les coudes vers l'arrière. Toucher le pied opposé avec la main opposée.
+Gainage coude;BONUS\n\nOn rentre bien le ventre
+Gainage côté;BONUS\n15 secondes Droit, 15 secondes Gauche\n\nOn gaine pour avoir une belle ligne tête épaules hanches genoux pieds :)
+Break 1min;1/2\n\nOn boit une petite gorgée d'eau
+Break 1min;2/2\n\nOn souffle pour récuperer et enchainer sur la dernière série
+Pompes;Répétition 1/3\n\nBien faites, sur les genoux si besoin. Allongé par terre, on rentre le ventre on serre les fesses on inspire et GO!
+Abdos bicyclette;Répétition 1/3\n\nSur le dos, on pédale avec les pieds tout en amenant le coude vers le genoux opposé. On souffle bien.
+Planche tournée;Répétition 1/3\nGauche\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Planche tournée;Répétition 1/3\Droite\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Pompes;Répétition 2/3\n\nBien faites, sur les genoux si besoin. Allongé par terre, on rentre le ventre on serre les fesses on inspire et GO!
+Abdos bicyclette;Répétition 2/3\n\nSur le dos, on pédale avec les pieds tout en amenant le coude vers le genoux opposé. On souffle bien.
+Planche tournée;Répétition 2/3\nGauche\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Planche tournée;Répétition 2/3\Droite\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Pompes;Répétition 3/3\n\nBien faites, sur les genoux si besoin. Allongé par terre, on rentre le ventre on serre les fesses on inspire et GO!
+Abdos bicyclette;Répétition 3/3\n\nSur le dos, on pédale avec les pieds tout en amenant le coude vers le genoux opposé. On souffle bien.
+Planche tournée;Répétition 3/3\nGauche\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Planche tournée;Répétition 3/3\Droite\nGainage bras tendu, on inspire on monte le bras vers le ciel, on souffle on enroule le bras.
+Abdos en C;BONUS\n\nExplication: assis, on rentre le ventre, on enroule le dos (en C), on mets les mains derrière les hanches.
+Abdos en C;BONUS\n\nGauche: on rentre le ventre, dos rond, on ramène la jambe, on tend, on lève la jambe vers le haut, on tend
+Abdos en C;BONUS\n\nDroite: on rentre le ventre, dos rond, on ramène la jambe, on tend, on lève la jambe vers le haut, on tend
+Abdos en C;BONUS\n\nEnsemble!!!: on rentre le ventre, dos rond, on ramène la jambe, on tend, on lève la jambe vers le haut, on tend
+Break 1min;1/2\n\nOn boit une petite gorgée d'eau
+Break 1min;2/2\n\nOn souffle pour récuperer et enchainer sur la dernière série
+Plank jack;Répétition 1/3\n\nGainage bras tendus, on écarte les jambes, et on ressert
+Plank dorsaux;Répétition 1/3\n\nà quatre pates, on lève la jambe gauche et la main droite. à 15 secondes, on inverse.
+Sumo squats;Répétition 1/3\n\nUn beau squat, les genoux restent derrière les orteils, poid sur les talons. Quand on est debout, on tape dans la "porte"
+Plank abs;Répétition 1/3\n\nGainage bras tendus, on rentre le ventre, amène les pieds au niveau des mains.
+Plank jack;Répétition 2/3\n\nGainage bras tendus, on écarte les jambes, et on ressert
+Plank dorsaux;Répétition 2/3\n\nà quatre pates, on lève la jambe gauche et la main droite. à 15 secondes, on inverse.
+Sumo squats;Répétition 2/3\n\nUn beau squat, les genoux restent derrière les orteils, poid sur les talons. Quand on est debout, on tape dans la "porte"
+Plank abs;Répétition 2/3\n\nGainage bras tendus, on rentre le ventre, amène les pieds au niveau des mains.
+Plank jack;Répétition 3/3\n\nGainage bras tendus, on écarte les jambes, et on ressert
+Plank dorsaux;Répétition 3/3\n\nà quatre pates, on lève la jambe gauche et la main droite. à 15 secondes, on inverse.
+Sumo squats;Répétition 3/3\n\nUn beau squat, les genoux restent derrière les orteils, poid sur les talons. Quand on est debout, on tape dans la "porte"
+Plank abs;Répétition 3/3\n\nGainage bras tendus, on rentre le ventre, amène les pieds au niveau des mains.
+Pogo;Explications\n\nDebout, on lève le genou gauche on lève la main droite, on descend doucement pour poser la main par terre, petit saut redressant.
+Pogo;BONUS Droite\n\n"Flamand rose", on descend doucement pour poser la main par terre, petit saut redressant, on stabilise et on continue.
+Pogo;BONUS Gauche\n\n"Flamand rose", on descend doucement pour poser la main par terre, petit saut redressant, on stabilise et on continue.
+Burpee;Explication\n\nOn commence debout, on s'accroupit, on saute en position gainage bras tendu, une pompe, on ramène les pieds, on saute.
+Burpee;BONUS\n\nDebout, Accroupit, Planche, Accroupit, Saut !
+Etirement;BRAVO vous avez survécu, on se donne rendez-vous demain pour une séance Pilates by Camille. =)
