@@ -130,3 +130,5 @@ dmypy.json
 
 # Application specific
 workout.preprocessed.txt
+current_instruction.txt
+current_subinstruction.txt

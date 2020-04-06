@@ -2,14 +2,26 @@
 import tkinter as tk
 from datetime import datetime, timedelta
 from tkinter import ttk
+import os
 
 DEFAULT_FONT="Verdana 20 bold"
+INSTRUCTION_FILENAME="current_instruction.txt"
+SUBINSTRUCTION_FILENAME="current_subinstruction.txt"
 #example
+
+def del_file(filePath):
+   if os.path.exists(filePath):
+       try:
+            os.remove(filePath)
+       except:
+            print("Error while deleting file ", filePath)
 
 class ExampleApp(tk.Frame):
     ''' An example application for TkInter.  Instantiate
         and call the run method to run. '''
     def __init__(self, master):
+        del_file(INSTRUCTION_FILENAME)
+        del_file(SUBINSTRUCTION_FILENAME)
         with open("workout.txt", mode='r', encoding="utf-8") as file_in:
             content = file_in.read().splitlines()
         with open("workout.preprocessed.txt", mode='w', encoding="utf-8") as file_out:
@@ -175,9 +187,19 @@ class ExampleApp(tk.Frame):
 
     def update_instruction(self, exercise):
         self.top_label.configure(text=exercise)
+        try:
+          with open(INSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
+            print(exercise, file=file_out, end = '')
+        except:
+          print("Error cannot write into {}".format(INSTRUCTION_FILENAME))
 
     def update_sub_instruction(self, exercise):
         self.instruction_label.configure(text=exercise)
+        try:
+          with open(SUBINSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
+            print(exercise, file=file_out, end = '')
+        except:
+          print("Error cannot write into {}".format(SUBINSTRUCTION_FILENAME))
 
 
 app = ExampleApp(tk.Tk())
