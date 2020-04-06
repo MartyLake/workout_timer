@@ -165,14 +165,19 @@ class ExampleApp(tk.Frame):
                 self.local_label.configure(text=now)
                 self.local_progress['value'] = 100 *  (30 - seconds) / 30
                 # exercise text
-                exercise = self.exercise_text[exercice_number]
-                self.top_label.configure(text=exercise)
-                self.instruction_label.configure(text=self.exercise_subtext[exercice_number])
+                self.update_instruction(self.exercise_text[exercice_number])
+                self.update_sub_instruction(self.exercise_subtext[exercice_number])
                 # self.instruction_label.configure(text=self.exercise_instruction[exercise])
                 next = ""
                 if exercice_number+1 < len(self.exercise_text):
                     next = "Prochaine étape: {}".format(self.exercise_text[exercice_number+1])
                 self.go_button.configure(text=next)
+
+    def update_instruction(self, exercise):
+        self.top_label.configure(text=exercise)
+
+    def update_sub_instruction(self, exercise):
+        self.instruction_label.configure(text=exercise)
 
 
 app = ExampleApp(tk.Tk())
