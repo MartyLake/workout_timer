@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from tkinter import ttk
 import os
 
+CHROMA_KEY='#ff00ff'
 DEFAULT_FONT="Verdana 20 bold"
 INSTRUCTION_FILENAME="current_instruction.txt"
 SUBINSTRUCTION_FILENAME="current_subinstruction.txt"
@@ -69,7 +70,9 @@ class ExampleApp(tk.Frame):
         tk.Frame.__init__(self,
                           master,
                           width=1280/2 + 210,
-                          height=720/2)
+                          height=720/2,
+                          background=CHROMA_KEY)
+
         # Set the title
         self.master.title('Workout Timer')
 
@@ -80,13 +83,16 @@ class ExampleApp(tk.Frame):
         self.pack()
 
         self.top_label = tk.Label(text="Workout", font="Verdana 30 bold", wraplength=390, justify='left')
+        self.top_label.configure(background=CHROMA_KEY)
         self.instruction_label = tk.Label(text="", font=DEFAULT_FONT, wraplength=395, justify='left')
+        self.instruction_label.configure(background=CHROMA_KEY)
 
         # The go button
         self.start_time = None
         self.go_button = tk.Button(self,
                                    text='Go',
                                    command=self.go_button_callback)
+        self.go_button.configure(background=CHROMA_KEY)
 
         self.local_progress = ttk.Progressbar(orient='horizontal',length=100,mode='determinate')
         self.local_progress['value'] = 0
@@ -94,7 +100,9 @@ class ExampleApp(tk.Frame):
         self.global_progress['value'] = 0
 
         self.label = tk.Label(text="", font=DEFAULT_FONT)
+        self.label.configure(background=CHROMA_KEY)
         self.local_label = tk.Label(text="", font=DEFAULT_FONT)
+        self.local_label.configure(background=CHROMA_KEY)
 
         # Put the controls on the form
         # self.top_label.pack(fill=tk.X, side=tk.TOP)
