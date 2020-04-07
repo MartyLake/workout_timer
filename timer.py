@@ -123,7 +123,7 @@ class ExampleApp(tk.Frame):
         now = "{:02d}:{:02d}/{:02d}:{:02d}".format(0,0, total_minutes, total_seconds)
         self.label.configure(text=now)
 
-        now = "Ready?"
+        now = "{:02d}:{:02d}".format(total_minutes, total_seconds)
         self.local_label.configure(text=now)
         # exercise text
         exercice_number=0
