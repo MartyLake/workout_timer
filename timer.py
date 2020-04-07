@@ -127,9 +127,8 @@ class ExampleApp(tk.Frame):
         self.local_label.configure(text=now)
         # exercise text
         exercice_number=0
-        exercise = self.exercise_text[int(exercice_number)]
-        self.top_label.configure(text=exercise)
-        self.instruction_label.configure(text=self.exercise_subtext[int(exercice_number)])
+        self.update_instruction(self.exercise_text[exercice_number])
+        self.update_sub_instruction(self.exercise_subtext[exercice_number])
 
         self.update()
 
