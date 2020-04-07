@@ -3,12 +3,13 @@ import tkinter as tk
 from datetime import datetime, timedelta
 from tkinter import ttk
 import os
+import webbrowser
 
 CHROMA_KEY='#ff00ff'
 DEFAULT_FONT="Verdana 20 bold"
 INSTRUCTION_FILENAME="current_instruction.txt"
 SUBINSTRUCTION_FILENAME="current_subinstruction.txt"
-#example
+CHAT_URL="https://nightdev.com/hosted/obschat?theme=bttv_dark&channel=themartylake_workout&fade=false&bot_activity=true&prevent_clipping=true"
 
 def del_file(filePath):
    if os.path.exists(filePath):
@@ -211,4 +212,5 @@ class ExampleApp(tk.Frame):
              print("Error cannot write into {}".format(SUBINSTRUCTION_FILENAME))
 
 app = ExampleApp(tk.Tk())
+webbrowser.open(CHAT_URL,new=1)
 app.mainloop()
