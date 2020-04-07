@@ -193,21 +193,22 @@ class ExampleApp(tk.Frame):
                 self.go_button.configure(text=next)
 
     def update_instruction(self, exercise):
-        self.top_label.configure(text=exercise)
-        try:
-          with open(INSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
-            print(exercise, file=file_out, end = '')
-        except:
-          print("Error cannot write into {}".format(INSTRUCTION_FILENAME))
+        if not os.path.exists(INSTRUCTION_FILENAME) or self.top_label['text'] != exercise:
+           self.top_label.configure(text=exercise)
+           try:
+             with open(INSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
+               print(exercise, file=file_out, end = '')
+           except:
+             print("Error cannot write into {}".format(INSTRUCTION_FILENAME))
 
     def update_sub_instruction(self, exercise):
-        self.instruction_label.configure(text=exercise)
-        try:
-          with open(SUBINSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
-            print(exercise, file=file_out, end = '')
-        except:
-          print("Error cannot write into {}".format(SUBINSTRUCTION_FILENAME))
-
+        if not os.path.exists(SUBINSTRUCTION_FILENAME) or self.instruction_label['text'] != exercise:
+           self.instruction_label.configure(text=exercise)
+           try:
+             with open(SUBINSTRUCTION_FILENAME, mode='w', encoding="utf-8") as file_out:
+               print(exercise, file=file_out, end = '')
+           except:
+             print("Error cannot write into {}".format(SUBINSTRUCTION_FILENAME))
 
 app = ExampleApp(tk.Tk())
 app.mainloop()
